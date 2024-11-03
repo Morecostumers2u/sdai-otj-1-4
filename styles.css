@@ -1,9 +1,60 @@
 body {
-    color: aquamarine;
+    color: black;
 
 }
 
 .menu-title {
     text-align: center;
     width: 800px;
+}
+
+/* Style for h1 */
+h1 {
+    font-family: 'Arial', sans-serif; /* Example font */
+    font-size: 36px;                  /* Adjust size as needed */
+    color: #333333;                   /* Dark color for good contrast */
+    margin: 20px 0;                   /* Adds spacing above and below the heading */
+}
+
+/* Style for h2 */
+h2 {
+    font-family: 'Verdana', sans-serif; /* Use a consistent or different font for variation */
+    font-size: 30px;                    /* Slightly smaller than h1 */
+    color: #444444;                     /* Slightly lighter color */
+    margin: 18px 0;                     /* Adds appropriate spacing */
+}
+
+/* Style for h3 */
+h3 {
+    font-family: 'Georgia', serif;  /* Example of a serif font */
+    font-size: 24px;                /* Smaller size for h3 */
+    color: #555555;                 /* Lighter color for hierarchy */
+    margin: 15px 0;                 /* Adds spacing around the heading */
+}
+
+/* Style for h4 */
+h4 {
+    font-family: 'Courier New', monospace; /* Monospace for variation */
+    font-size: 20px;                       /* Smallest size in the hierarchy */
+    color: #666666;                        /* Light color */
+    margin: 12px 0;                        /* Adjusts spacing */
+}
+
+/* Style for menu descriptions */
+.menu-description {
+    font-family: 'Helvetica', sans-serif; /* Example font family */
+    font-size: 16px;                      /* Readable font size */
+    color: #666666;                       /* Text color for menu descriptions */
+    line-height: 1.6;                     /* Improved line height for readability */
+    margin: 10px 0;                       /* Adds some spacing between menu items */
+}
+
+/* Global line-height adjustment */
+p {
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+p {
+    margin: 15px 0; /* Adds space above and below paragraphs */
+    padding: 0 10px; /* Optional padding for extra space inside the paragraph block */
 }
