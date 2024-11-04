@@ -1,8 +1,9 @@
+/* Body text color */
 body {
     color: black;
-
 }
 
+/* Menu title style */
 .menu-title {
     text-align: center;
     width: 800px;
@@ -10,51 +11,57 @@ body {
 
 /* Style for h1 */
 h1 {
-    font-family: 'Arial', sans-serif; /* Example font */
-    font-size: 36px;                  /* Adjust size as needed */
-    color: #333333;                   /* Dark color for good contrast */
-    margin: 20px 0;                   /* Adds spacing above and below the heading */
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333333;
+    margin: 20px 0;
 }
 
 /* Style for h2 */
 h2 {
-    font-family: 'Verdana', sans-serif; /* Use a consistent or different font for variation */
-    font-size: 30px;                    /* Slightly smaller than h1 */
-    color: #444444;                     /* Slightly lighter color */
-    margin: 18px 0;                     /* Adds appropriate spacing */
+    font-family: 'Verdana', sans-serif;
+    font-size: 30px;
+    color: #444444;
+    margin: 18px 0;
 }
 
 /* Style for h3 */
 h3 {
-    font-family: 'Georgia', serif;  /* Example of a serif font */
-    font-size: 24px;                /* Smaller size for h3 */
-    color: #555555;                 /* Lighter color for hierarchy */
-    margin: 15px 0;                 /* Adds spacing around the heading */
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #555555;
+    margin: 15px 0;
 }
 
 /* Style for h4 */
 h4 {
-    font-family: 'Courier New', monospace; /* Monospace for variation */
-    font-size: 20px;                       /* Smallest size in the hierarchy */
-    color: #666666;                        /* Light color */
-    margin: 12px 0;                        /* Adjusts spacing */
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    color: #666666;
+    margin: 12px 0;
+}
+
+/* Global paragraph styles */
+p {
+    line-height: 1.6;    /* Adjust line height for better readability */
+    margin: 15px 0;      /* Adds space above and below paragraphs */
+    padding: 0 10px;     /* Optional padding for extra space inside the paragraph block */
 }
 
 /* Style for menu descriptions */
 .menu-description {
-    font-family: 'Helvetica', sans-serif; /* Example font family */
-    font-size: 16px;                      /* Readable font size */
-    color: #666666;                       /* Text color for menu descriptions */
-    line-height: 1.6;                     /* Improved line height for readability */
-    margin: 10px 0;                       /* Adds some spacing between menu items */
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-/* Global line-height adjustment */
-p {
-    line-height: 1.6; /* Adjust line height for better readability */
+/* Line height for list items */
+li {
+    margin-bottom: 10px;   /* Adds space below each list item */
+    line-height: 1.6;      /* Keep line height for readability */
 }
 
-p {
-    margin: 15px 0; /* Adds space above and below paragraphs */
-    padding: 0 10px; /* Optional padding for extra space inside the paragraph block */
-}
+
