@@ -5,9 +5,10 @@ body {
 
 /* Menu title style */
 .menu-title {
+    width: 800px;     /* Fixed width as specified */
     text-align: center;
-    max-width: 800px;  /* Ensures the title does not exceed screen width */
-    padding: 0 20px;    /* Adds horizontal padding to center the text */
+    margin: 0 auto;   /* Centers the title */
+    padding: 0 20px;  /* Optional padding for smaller screens */
 }
 
 /* Style for h1 */
@@ -75,11 +76,13 @@ li {
 }
 
 .image-container img {
-    width: 100%;                    /* Allow image to scale within its container */
-    max-width: 200px;               /* Set a max width for each image */
-    height: auto;                   /* Maintain the image’s aspect ratio */
-    border-radius: 8px;             /* Optional: round the image corners */
+    width: 100%;
+    max-width: 200px; /* Ensures images don’t exceed this width */
+    flex-basis: calc(33.33% - 20px); /* Each image takes a third of the row minus the gap */
+    border-radius: 8px;
+    height: auto;
 }
+
 
 /* Footer styling */
 footer {
@@ -121,6 +124,42 @@ footer {
         width: 20px;
         height: 20px;
     }
+}
+
+/* Modal styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%; /* Set a max width to prevent overflow */
+    max-height: 90%; /* Prevents the image from going off-screen */
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#caption {
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
 }
 
 
