@@ -6,7 +6,8 @@ body {
 /* Menu title style */
 .menu-title {
     text-align: center;
-    width: 800px;
+    max-width: 800px;  /* Ensures the title does not exceed screen width */
+    padding: 0 20px;    /* Adds horizontal padding to center the text */
 }
 
 /* Style for h1 */
@@ -80,5 +81,46 @@ li {
     border-radius: 8px;             /* Optional: round the image corners */
 }
 
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Social media container styling */
+.social-media {
+    display: flex;                 /* Use Flexbox to align icons horizontally */
+    justify-content: center;       /* Center icons within the footer */
+    gap: 15px;                     /* Space between icons */
+    margin-bottom: 10px;           /* Space below icons */
+}
+
+/* Style each social media icon */
+.social-media img {
+    display: inline-block;         /* Use inline-block for precise control over icon layout */
+    width: 24px;                   /* Set icon width */
+    height: 24px;                  /* Set icon height */
+}
+
+@media (max-width: 600px) {
+    /* Reduce gap in the image gallery on smaller screens */
+    .image-container {
+        gap: 15px;
+    }
+
+    /* Adjust footer padding for mobile */
+    footer {
+        padding: 15px;
+    }
+
+    /* Slightly reduce social media icon size */
+    .social-media img {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 
