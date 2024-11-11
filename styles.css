@@ -64,4 +64,21 @@ li {
     line-height: 1.6;      /* Keep line height for readability */
 }
 
+.image-container {
+    display: flex; 
+    gap: 30px;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;                    /* Allow image to scale within its container */
+    max-width: 200px;               /* Set a max width for each image */
+    height: auto;                   /* Maintain the image’s aspect ratio */
+    border-radius: 8px;             /* Optional: round the image corners */
+}
+
+
 
