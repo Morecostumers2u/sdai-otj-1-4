@@ -97,6 +97,7 @@ footer {
 .social-media {
     display: flex;                 /* Use Flexbox to align icons horizontally */
     justify-content: center;       /* Center icons within the footer */
+    align-items: center;           /* Center icons vertically within the footer */
     gap: 15px;                     /* Space between icons */
     margin-bottom: 10px;           /* Space below icons */
 }
